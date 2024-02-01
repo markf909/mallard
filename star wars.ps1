@@ -1,7 +1,7 @@
 Add-Type -AssemblyName System.Windows.Forms
 
 # Display a message box with OK button
-$result = [System.Windows.Forms.MessageBox]::Show('Click OK to open a webpage.', 'Message Box', 'OK', 'Information')
+$result = [System.Windows.Forms.MessageBox]::Show('You have been hacked by the Dark Side.  Press OK to witness our wrath!', 'Message Box', 'OK', 'Information')
 
 # Check if the user clicked OK (DialogResult.OK)
 if ($result -eq [System.Windows.Forms.DialogResult]::OK) {
