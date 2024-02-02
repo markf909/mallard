@@ -23,7 +23,7 @@ function Set-DesktopBackground {
 $url = "https://github.com/markf909/mallard/raw/main/Muppet.jpg"
 
 # Set the path where you want to save the downloaded picture
-$downloadPath = "C:\Test\Muppet.jpg"
+$downloadPath = "C:\Muppet.jpg"
 
 # Create a WebClient object
 $webClient = New-Object System.Net.WebClient
