@@ -44,4 +44,3 @@ try {
 
 Write-Host "Desktop background set to $downloadPath"
 
-Read-Host "Press Enter to exit..."
